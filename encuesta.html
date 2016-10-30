@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Encuesta con Boostrap</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Encuesta con Boostrap</h1>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color: #f4f6f6;">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="background-color: #f4f6f6;">
+						<h4>Sección 1</h4>
+						<p>Edad:</p>
+						<p>Seleccione una de las siguientes opciones</p>
+						<ul>
+							<li><input type="radio" name="menor 20" value="1"> Menos de 20 años</li>
+							<li><input type="radio" name="entre 20 y 30" value="2"> Entre 20 y 30 años</li>
+							<li><input type="radio" name="entre 30 y 40" value="3"> Entre 30 y 40 años</li>
+							<li><input type="radio" name="mayor 40" value="4"> Mayor de 40 años</li>
+						</ul>
+						<p>Genero:</p>
+						<p>Seleccione una de las siguientes opciones</p>
+						<ul>
+							<li><input type="radio" name="femenino" value="F"> Femenino</li>
+							<li><input type="radio" name="masculino" value="M"> Masculino</li>
+						</ul>
+						<p>¿En la FUP usted es?</p>
+						<p>Seleccione una de las siguientes opciones</p>
+						<ul>
+							<li><input type="radio" name="estudiante" value="E"> Estudiante</li>
+							<li><input type="radio" name="docente" value="D"> Docente</li>
+							<li><input type="radio" name="administrativo" value="A"> Administrativo</li>
+						</ul>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="background-color:#f4f6f6;">
+						<h4>Sección 1.2</h4>
+						<p>Comuna de la ciudad en la que vive:</p>
+						<p>Seleccione una de las siguientes opciones</p>
+						<ul>
+							<li><input type="radio" name="comuna 1" value="1"> Comuna 1</li>
+							<li><input type="radio" name="comuna 2" value="2"> Comuna 2</li>
+							<li><input type="radio" name="comuna 3" value="3"> Comuna 3</li>
+							<li><input type="radio" name="comuna 4" value="4"> Comuna 4</li>
+							<li><input type="radio" name="comuna 5" value="5"> Comuna 5</li>
+							<li><input type="radio" name="comuna 6" value="6"> Comuna 6</li>
+							<li><input type="radio" name="comuna 7" value="7"> Comuna 7</li>
+							<li><input type="radio" name="comuna 8" value="8"> Comuna 8</li>
+							<li><input type="radio" name="comuna 9" value="9"> Comuna 9</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color:#f4f6f6;">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="background-color:#f4f6f6;">
+						<h4>Sección 2</h4>
+						<p>Barrio de residencia:</p>
+						<textarea name="barrio" maxlength="100" cols="40" rows="1"></textarea><br><br>
+						<p>Jornada del programa:</p>
+						<p>Seleccione una de las siguientes opciones</p>
+						<ul>
+							<li><input type="radio" name="diurno" value="D"> Diurno</li>
+							<li><input type="radio" name="nocturno" value="N"> Nocturno</li>
+						</ul>
+						<p>¿Usa bicicleta como medio PRINCIPAL de transporte en la cuidad?:</p>
+						<ul>
+							<li><input type="radio" name="si" value="S"> Si</li>
+							<li><input type="radio" name="no" value="N"> No</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="background-color:#f4f6f6;">
+						<h4>Sección 2.1</h4>
+						<p>¿Cual es su principal motivo para no usar bicicleta?:</p>
+						<p>Marque las opciones que correspondan</p>
+
+						<input type="checkbox" name="motivo" value="seguridad">Seguridad<br>
+						<input type="checkbox" name="motivo" value="clima">Clima<br>
+						<input type="checkbox" name="motivo" value="tiempo">Tiempo<br>
+						<input type="checkbox" name="motivo" value="distancia">Distancia<br>
+						<input type="checkbox" name="motivo" value="cansancio">Cansancio<br>
+						<input type="checkbox" name="motivo" value="no sabe">No sabe montar<br>
+						<input type="checkbox" name="motivo" value="no tiene">No tiene bicicleta<br>
+						<input type="checkbox" name="motivo" value="no interesa">No le interesa<br>
+						<br><br>
+						<p>¿Que opinion tiene de la bicicleta como medio de transporte?:</p>
+						<p>Marque las opciones que correspondan</p>
+						<input type="checkbox" name="opinion" value="peligroso">Es peligroso<br>
+						<input type="checkbox" name="opinion" value="util">Útil<br>
+						<input type="checkbox" name="opinion" value="inutil">Inútil<br>
+						<input type="checkbox" name="opinion" value="tentador">Tentador<br>
+						<input type="checkbox" name="opinion" value="practico">Practico<br>
+						<input type="checkbox" name="opinion" value="no lo considera">No lo ha considerado<br>
+						<input type="checkbox" name="opinion" value="no sabe">No sabe<br><br>
+						<input type="submit" name="enviar" value="Enviar">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
