@@ -1,2 +1,2 @@
 # bootstrap
-Practica Boostrap
+Practica Bootstrap
